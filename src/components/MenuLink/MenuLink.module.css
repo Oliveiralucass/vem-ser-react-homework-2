@@ -1,0 +1,16 @@
+.link {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #1e293b;
+    font-weight: 600;
+}
+.link:hover{
+    color: var(--azul-principal);
+}
+.link:first-child img{
+   width: 210px;
+}
+
+.linkSublinhado {
+    text-decoration: underline;
+}

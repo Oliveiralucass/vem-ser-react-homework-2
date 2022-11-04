@@ -1,0 +1,24 @@
+.navegacao {
+    height: 112px;
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    column-gap: 60px;
+    background-color: #f8fafc;
+}
+
+.link {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: red;
+}
+
+.linkSublinhado {
+    text-decoration: underline;
+}
+
+@media (max-width: 744px) {
+    .navegacao {
+        height: 72px;
+    }
+}
